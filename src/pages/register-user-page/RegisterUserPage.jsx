@@ -1,4 +1,6 @@
 import React from 'react'
+import DropdownDepartemen from '../../components/dropdown-select/DropdownDepartemen'
+import DropdownPosition from '../../components/dropdown-select/DropdownPosition'
 
 const RegisterUserPage = () => {
   return (
@@ -10,8 +12,8 @@ const RegisterUserPage = () => {
             <input type="text" name="email" className="colom-email" placeholder="Email" />
             
             <div className='colom-justify'>
-              <input type="text" name="position"  placeholder="Position" />
-              <input type="text" name="department" placeholder="Departement" />
+              <div className="dropdown-departemen"><DropdownDepartemen /></div>
+              <div className="dropdown-position"><DropdownPosition /></div>
             </div>
           
             <input type="text" name="role" className="colom-role" placeholder="Role" />

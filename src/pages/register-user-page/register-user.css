@@ -20,18 +20,23 @@
 
 .container-register-user input {
     font-size: 30px;
-    margin: 30px;
+    margin: 20px;
     border-radius: 10px;
     height: 60px;
 }
 
 div.colom-justify {
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
 }
 input.colom-role {
     width: 50%;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
 .btn-regis {
     font-size: 30px;
@@ -41,8 +46,16 @@ input.colom-role {
     height: 60px;
     width: 25%;
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 40px;
     border-radius: 20px;
+}
+
+.dropdown-departemen {
+    margin: 20px;
+}
+.dropdown-position {
+    margin: 20px;
 }
 
 /*untuk layar device berukuran kecil*/

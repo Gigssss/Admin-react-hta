@@ -1,9 +1,9 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
 import Box from '../../components/box/Box'
-import DashboardWrapper, { DashboardWrapperMain, DashboardWrapperRight } from '../../components/dashboard-wrapper/DashboardWrapper'
-import SummaryBox, { SummaryBoxSpecial } from '../../components/summary-box/SummaryBox'
-import { colors, data } from '../../constants'
+import DashboardWrapper, { DashboardWrapperMain } from '../../components/dashboard-wrapper/DashboardWrapper'
+import SummaryBox from '../../components/summary-box/SummaryBox'
+import { data } from '../../constants'
 import {
     Chart as ChartJS,
     CategoryScale,
